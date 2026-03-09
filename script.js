@@ -17,8 +17,7 @@ const translations = {
         
         // قسم عنّي
         aboutTitle: "אודותי",
-        aboutSubtitle: "ניסיון של למעלה מ-15 שנים בתחום העיצוב האדריכלי",
-        aboutText2: "אני מאמינה שעיצוב אדריכלי טוב חייב לשלב בין אסתטיקה, פונקציונליות וקיימות. אני שואפת תמיד ליצור חללים שמשפרים את איכות חייהם של הדיירים ומשקפים את אישיותם.",
+		aboutText2: "אני מאמינה שעיצוב אדריכלי טוב חייב לשלב בין אסתטיקה, פונקציונליות וקיימות. אני שואפת תמיד ליצור חללים שמשפרים את איכות חייהם של הדיירים ומשקפים את אישיותם.",
         quality1: "איכות גבוהה",
         quality2: "יצירתיות",
         quality3: "מחויבות לזמנים",
@@ -83,9 +82,8 @@ const translations = {
         viewProjectsBtn: "عرض المشاريع",
         
         // قسم عنّي
-        aboutTitle: "عنّي",
-        aboutSubtitle: "خبرة تمتد لأكثر من 15 عاماً في مجال التصميم المعماري",
-        aboutText2: "أؤمن بأن التصميم المعماري الجيد يجب أن يدمج بين الجماليات والوظيفية والاستدامة. أسعى دائمًا لخلق مساحات تحسن من جودة حياة السكان وتعكس شخصيتهم.",
+        aboutTitle: "عنّي",     
+		aboutText2: "أؤمن بأن التصميم المعماري الجيد يجب أن يدمج بين الجماليات والوظيفية والاستدامة. أسعى دائمًا لخلق مساحات تحسن من جودة حياة السكان وتعكس شخصيتهم.",
         quality1: "جودة عالية",
         quality2: "إبداع",
         quality3: "التزام بالمواعيد",
@@ -150,7 +148,6 @@ const translations = {
         
         // قسم عنّي
         aboutTitle: "About Me",
-        aboutSubtitle: "Over 15 years of experience in architectural design",
         aboutText2: "I believe that good architectural design must integrate aesthetics, functionality, and sustainability. I always strive to create spaces that improve residents' quality of life and reflect their personality.",
         quality1: "High Quality",
         quality2: "Creativity",
@@ -206,12 +203,11 @@ let currentLang = 'he';
 
 // مصفوفة صور المعرض
 const galleryImages = [
-    { id: 1, url: "model1.webp", title: { he: "וילה מודרנית", ar: "فيلا حديثة", en: "Modern Villa" } },
-    { id: 2, url: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80", title: { he: "דירת פנטהאוז", ar: "بنتهوس", en: "Penthouse Apartment" } },
-    { id: 3, url: "https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80", title: { he: "משרדים עכשוויים", ar: "مكاتب عصرية", en: "Contemporary Offices" } },
-    { id: 4, url: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80", title: { he: "בית עם נוף", ar: "منزل بإطلالة", en: "House with a View" } },
-    { id: 5, url: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1175&q=80", title: { he: "עיצוב פנים מינימליסטי", ar: "تصميم داخلي بسيط", en: "Minimalist Interior Design" } },
-    { id: 6, url: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80", title: { he: "בית כפרי מודרני", ar: "منزل ريفي حديث", en: "Modern Country House" } }
+    { id: 1, url: "1,jpeg", title: { he: "עיצוב מטבח", ar: "تصميم مطبخ", en: "Kitchen interior design" } },
+	{ id: 2, url: "3,jpeg", title: { he: "עיצוב חדר ילדים", ar: "تصميم غرفة طفل", en: "Children’s Room Interior Design" } },
+	{ id: 3, url: "4,jpeg", title: { he: "עיצוב פנים לבית מודרני", ar: "تصميم داخلي لبيت مودرن", en: "Modern House Interior Design" } },
+	
+
 ];
 
 let imageCounter = galleryImages.length;
