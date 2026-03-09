@@ -203,11 +203,27 @@ let currentLang = 'he';
 
 // مصفوفة صور المعرض
 const galleryImages = [
-    { id: 1, url: "1,jpeg", title: { he: "עיצוב מטבח", ar: "تصميم مطبخ", en: "Kitchen interior design" } },
-	{ id: 2, url: "3,jpeg", title: { he: "עיצוב חדר ילדים", ar: "تصميم غرفة طفل", en: "Children’s Room Interior Design" } },
-	{ id: 3, url: "4,jpeg", title: { he: "עיצוב פנים לבית מודרני", ar: "تصميم داخلي لبيت مودرن", en: "Modern House Interior Design" } },
-	
+    { id: 1, url: "Images/1.jpeg", title: { he: "עיצוב מטבח", ar: "تصميم مطبخ", en: "Kitchen interior design" } },
+	{ id: 2, url: "Images/3.jpeg", title: { he: "עיצוב חדר ילדים", ar: "تصميم غرفة طفل", en: "Children’s Room Interior Design" } },
+	{ id: 3, url: "Images/4.jpeg", title: { he: "עיצוב פנים לבית מודרני", ar: "تصميم داخلي لبيت مودرن", en: "Modern House Interior Design" } },
+    { id: 4, url: "Images/5.jpeg", title: { he: "עיצוב פנים לבית קפה מודרני", ar: "تصميم داخلي لمقهى مودرن", en: "Modern Café Interior Design" } },
+	{ id: 5, url: "Images/6.jpeg", title: { he: "עיצוב פנים לבית קפה מודרני", ar: "تصميم داخلي لمقهى مودرن", en: "Modern Café Interior Design" } },
+	{ id: 6, url: "Images/7.jpeg", title: { he: "עיצוב פנים לבית קפה מודרני", ar: "تصميم داخلي لمقهى مودرن", en: "Modern Café Interior Design" } },
+	{ id: 7, url: "Images/8.jpeg", title: { he: "תכנון דירה מודרנית", ar: "تخطيط منزل مودرن", en: "Modern House Design" } },
+	{ id: 8, url: "Images/9.jpeg", title: { he: "תכנון דירה מודרנית", ar: "تخطيط منزل مودرن", en: "Modern House Design" } },
+	{ id: 9, url: "Images/13.jpeg", title: { he: "תכנון דירה מודרנית", ar: "تخطيط منزل مودرن", en: "Modern House Design" } },
+	{ id: 10, url: "Images/10.jpeg", title: { he: "תכנון מעונות סטודנטים", ar: "تخطيط سكن الطلاب", en: "Student Dormitory Design" } },
+	{ id: 11, url: "Images/11.jpeg", title: { he: "תכנון מועדון סטודנטים", ar: "تخطيط نادي الطلاب", en: "Student Club Design" } },
+    { id: 12, url: "Images/12.jpeg", title: { he: "תכנון מועדון סטודנטים", ar: "تخطيط نادي الطلاب", en: "Student Club Design" } },
+	{ id: 13, url: "Images/14.jpeg", title: { he: "תכנון מועדון סטודנטים", ar: "تخطيط نادي الطلاب", en: "Student Club Design" } },
+	{ id: 14, url: "Images/15.jpeg", title: { he: "תכנון מועדון סטודנטים", ar: "تخطيط نادي الطلاب", en: "Student Club Design" } },
+	{ id: 15, url: "Images/20.jpeg", title: { he: "תכנון משרד אדריכלי", ar: "تخطيط مكتب معماري", en: "Architectural Office Design" } },
+	{ id: 16, url: "Images/21.jpeg", title: { he: "תכנון משרד אדריכלי", ar: "تخطيط مكتب معماري", en: "Architectural Office Design" } },
+	{ id: 17, url: "Images/22.jpeg", title: { he: "תכנון משרד אדריכלי", ar: "تخطيط مكتب معماري", en: "Architectural Office Design" } },
 
+
+
+	
 ];
 
 let imageCounter = galleryImages.length;
