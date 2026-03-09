@@ -219,13 +219,13 @@ const galleryImages = [
 	{ id: 14, url: "Images/15.jpeg", title: { he: "תכנון מועדון סטודנטים", ar: "تخطيط نادي الطلاب", en: "Student Club Design" } },
 	{ id: 15, url: "Images/20.jpeg", title: { he: "תכנון משרד אדריכלי", ar: "تخطيط مكتب معماري", en: "Architectural Office Design" } },
 	{ id: 16, url: "Images/21.jpeg", title: { he: "תכנון משרד אדריכלי", ar: "تخطيط مكتب معماري", en: "Architectural Office Design" } },
-	{ id: 17, url: "Images/22.jpeg", title: { he: "תכנון משרד אדריכלי", ar: "تخطيط مكتب معماري", en: "Architectural Office Design" } },
-	{ id: 18, url: "Images/25.jpeg", title: { he: "תכנון בית מלון", ar: "تخطيط فندق ", en: "Hotel Design } },
+	{ id: 17, url: "Images/22.jpg", title: { he: "תכנון משרד אדריכלי", ar: "تخطيط مكتب معماري", en: "Architectural Office Design" } },
+	{ id: 18, url: "Images/25.jpeg", title: { he: "תכנון בית מלון", ar: "تخطيط فندق ", en: "Hotel Design" } },
 	{ id: 19, url: "Images/18.jpeg", title: { he: "עיצוב מטבח", ar: "تصميم مطبخ", en: "Kitchen interior design" } },
-	{ id: 20, url: "Images/16.jpeg", title: { he: "דף השראה לעיצוב פנים", ar: "صفحة إلهام لتصميم داخلي", en: "Interior Design Inspiration Board" } },
-	{ id: 21, url: "Images/17.jpeg", title: { he: "דף השראה לעיצוב פנים", ar: "صفحة إلهام لتصميم داخلي", en: "Interior Design Inspiration Board" } },
-	{ id: 22, url: "Images/23.jpeg", title: { he: "דף השראה לעיצוב פנים", ar: "صفحة إلهام لتصميم داخلي", en: "Interior Design Inspiration Board" } },
-	{ id: 23, url: "Images/3.jpeg", title: { he: "עיצוב חדר ילדים", ar: "تصميم غرفة طفل", en: "Children’s Room Interior Design" } },
+	{ id: 20, url: "Images/16.jpg", title: { he: "דף השראה לעיצוב פנים", ar: "صفحة إلهام لتصميم داخلي", en: "Interior Design Inspiration Board" } },
+	{ id: 21, url: "Images/17.jpg", title: { he: "דף השראה לעיצוב פנים", ar: "صفحة إلهام لتصميم داخلي", en: "Interior Design Inspiration Board" } },
+	{ id: 22, url: "Images/23.jpg", title: { he: "דף השראה לעיצוב פנים", ar: "صفحة إلهام لتصميم داخلي", en: "Interior Design Inspiration Board" } },
+	{ id: 23, url: "Images/24.jpeg", title: { he: "עיצוב חדר ילדים", ar: "تصميم غرفة طفل", en: "Children’s Room Interior Design" } },
 ];
 
 let imageCounter = galleryImages.length;
