@@ -225,7 +225,7 @@ const galleryImages = [
 	{ id: 20, url: "Images/16.jpeg", title: { he: "דף השראה לעיצוב פנים", ar: "صفحة إلهام لتصميم داخلي", en: "Interior Design Inspiration Board" } },
 	{ id: 21, url: "Images/17.jpeg", title: { he: "דף השראה לעיצוב פנים", ar: "صفحة إلهام لتصميم داخلي", en: "Interior Design Inspiration Board" } },
 	{ id: 22, url: "Images/23.jpeg", title: { he: "דף השראה לעיצוב פנים", ar: "صفحة إلهام لتصميم داخلي", en: "Interior Design Inspiration Board" } },
-	{ id: 2.5, url: "Images/3.jpeg", title: { he: "עיצוב חדר ילדים", ar: "تصميم غرفة طفل", en: "Children’s Room Interior Design" } },
+	{ id: 23, url: "Images/3.jpeg", title: { he: "עיצוב חדר ילדים", ar: "تصميم غرفة طفل", en: "Children’s Room Interior Design" } },
 ];
 
 let imageCounter = galleryImages.length;
